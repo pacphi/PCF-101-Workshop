@@ -1,27 +1,61 @@
 = Pivotal Cloud Foundry 101 Workshop
 
-== Agenda / Schedule
+== COURSE OVERVIEW
 
-This one day hands-on classroom style session will provide developers (and operators) with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs, including pushing native code and Docker images.
+This course provides students with the concepts and experience needed to work with and deploy applications on Pivotal Cloud Foundry. Students will gain experience in pushing apps to Cloud Foundry, accessing logs, and scaling. Students will explore topics directly related to the design and running of cloud native applications, including micro-service architectures, blue-green deployments, and continuous delivery.
 
-10:00 AM - 10:45 AM:: 
+== COURSE DURATION
+
+Instructor-led: 1 day
+
+== TARGET AUDIENCE
+
+Application developers & architects seeking introductory understanding of Cloud Foundry and experience using it to deploy, manage, and scale applications.
+
+== PREREQUISITES
+
+Understanding of application development and deployment. This course is aimed at developers regardless of your development language of choice. No specific programming language is needed or assumed. The Boeing environment favors Java or .Net. The hands on Labs will primarily be based on languages that target the Java or .Net core runtime.
+
+== COURSE OBJECTIVES
+
+At the end of the training, participants should have an understanding of the following:
+
+* Understand the differences between traditional IT provisioning, Infrastructure as a Service and Platform as a Service
+* Explain organizations, spaces, routes, services (managed, user- defined), manifests, build packs, applications and droplets
+* Identify Pivotal Cloud Foundry components: Router, Cloud Controller, Health Manager, Loggregator and Cells
+* Deploy pre-existing applications to Pivotal Cloud Foundry, obtain logs, debug deployment issues, scale, start, stop, bind to services
+* Use the command-line interface and Apps Manager to work with Pivotal Cloud Foundry
+* Understand the impact of the cloud environment on application architecture
+* Perform zero-downtime deployments
+* Understand the role of services in Pivotal Cloud Foundry, gain experience using one or more examples
+* Understand the purpose of build packs, gain experience specifying build packs and making configuration changes
+
+== AGENDA / SCHEDULE
+
+8:30 AM - 9:15 AM:: 
  * Session 1: _Cloud Native Introduction & Building Microservices_
 
 Session 1 is an overview of Cloud Foundry and how you can support a multi-cloud portable strategy for applications and pipelines with minimal overhead.
 
-10:45 AM - 11:00 AM:: BREAK
+9:15 AM - 9:30 AM:: BREAK
 
-11:00 AM - 12:00 PM:: 
+9:30 AM - 10:30 AM:: 
  * Session 2: _Cloud Foundry Architecture and Operations_
 
 Session 2 is a deep dive on Platforms, Cloud Foundry, and Containers from both a dev and ops perspective
 
-12:00 PM - 1:00 PM:: LUNCH (Pivotal provides)
+10:30 AM - 11:00 AM:: 
+ * Laptop preparation
 
-1:00 PM - 4:00 PM::
- * Developer Workshop: _Pushing Code w/PCF_
+11:00 AM - 12:00 PM::
+ * Developer Workshop (Part 1): _Pushing Code w/ PCF_
 
-4:00 PM - 4:30 PM:: Wrap Up, Q/A, Feedback
+12:00 PM - 1:00 PM:: LUNCH
+
+1:00 PM - 3:00 PM:: 
+  * Developer Workshop (Part 2): _Continued hands-on w/ PCF_
+
+3:00 PM - 3:30 PM:: Wrap Up, Q/A, Feedback
 
 == Course Materials
 
