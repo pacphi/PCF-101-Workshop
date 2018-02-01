@@ -76,6 +76,8 @@ Session 2 is a deep dive on Platforms, Cloud Foundry, and Containers from both a
 ** link:labs/lab4/README.adoc[Lab 4 - Monitoring Your Application]
 ** Advanced Lab - Jenkins Integration
 *** link:labs/lab5/README.adoc[Java App - Gradle Build]
-*** Java app - Maven Build (To be Added)
-** Advanced Lab - Spring Cloud & Netflix OSS 
-*** link:labs/lab6/README.adoc[Fortune Teller Project]
+** For further exploration check-out these projects 
+*** https://github.com/pacphi/track-shipments[Spring Boot Track Shipments example]
+*** https://github.com/pacphi/spring-boot-mongodb-example[Spring Boot MongoDB example]
+*** https://github.com/pacphi/spring-boot-cassandra-customer-starter[Spring Boot Cassandra example]
+*** https://spring.io/guides/gs/centralized-configuration/[Centralized configuration with Spring Cloud Config Server]
