@@ -14,7 +14,7 @@
 $ cf login -a https://{boeing_pcf_api_endpoint} ---sso
 ----
 +
-Follow the prompts
+Follow the prompts.  A temporary token that serves as your password will be vended through single sign-on.  
 
 == Apps Manager UI
 
@@ -22,6 +22,6 @@ Follow the prompts
 
 . Navigate in a web browser to https://{boeing_pcf_api_endpoint}
 
-. Login to the interface with your email and workshop password. Note the pasword will be supplied by the instructor on the day of delivery.
+. Login to the interface with via the SSO option. 
 
 . Click the 'Tools' link, and download the CLI matching your operating system
