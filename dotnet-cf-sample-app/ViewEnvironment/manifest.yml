@@ -1,8 +1,7 @@
 ---
 applications:
 - name: workshop-dotnet
-  random-host: true
+  random-route: true
   memory: 512m
   stack: windows2012R2
-  buildpack: binary_buildpack
   instances: 1

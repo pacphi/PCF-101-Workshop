@@ -19,6 +19,6 @@ Root Files
 ----------
 
 * gulpfile.js - Gulp task runner task definitions.
-* manifest.yml - Cloudfoundry v2 deployment descriptor.
+* manifest.yml - Cloud Foundry v2 deployment descriptor.
 * package.json - NPM package definition.
 * server.js - The usual entry point in to the NodeJS application.

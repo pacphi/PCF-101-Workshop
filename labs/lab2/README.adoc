@@ -1,8 +1,8 @@
-= Lab 2 - Binding to Cloudfoundry Services
+= Lab 2 - Binding to Cloud Foundry Services
 
 [abstract]
 --
-The _Workshop_ application was designed to illustrate the ease with which data services can be bound to and utilized by applications running on Cloud Foundry.
+The _workshop-spring_ application was designed to illustrate the ease with which data services can be bound to and utilized by applications running on Cloud Foundry.
 In this lab, we'll be binding the application to a MySQL databases.
 
 Cloud Foundry services are managed through two primary types of operations:
@@ -14,7 +14,7 @@ Bind/Unbind:: These operations create or delete unique credential sets for an ex
 
 == A Bit of Review
 
-Your instance of the sample _Workshop MVC Demo_ should not be running after the steps completed in link:../../labs/lab2/README.adoc[lab 1].  Make sure to change to the _spring-cf-sample-app_ application directory.  For this lab we will be using the Java application.  Redeploy the application:
+For this lab we will be using the Java application, workshop-spring. Your instance of _workshop-spring_ should not be running after the steps completed in link:../../labs/lab2/README.adoc[lab 1].  Make sure to change to the _spring-cf-sample-app_ application directory.    Redeploy the application:
 
 ----
 $ cf push
@@ -26,16 +26,16 @@ image::lab.png[]
 
 == The Services Marketplace
 
-There are two ways to discover what services are available on Pivotal Cloudfoundry.
+There are two ways to discover what services are available on Pivotal Cloud Foundry.
 The first is available on any instance of Cloud Foundry: the CLI. Just type:
 
 ----
 $ cf marketplace
 ----
 
-and you'll get a list of services, their available plans, and descriptions. On Pivotal Cloudfoundry, the ``free'' tier of plans is normally the first one listed.
+and you'll get a list of services, their available plans, and descriptions. On Pivotal Cloud Foundry, the ``free'' tier of plans is normally the first one listed.
 
-The second way is specific to Pivotal Cloudfoundry's Apps Manager UI.
+The second way is specific to Pivotal Cloud Foundry's Apps Manager UI.
 If you haven't already, login to it by visiting http://apps.sys.px-npe01.cf.t-mobile.com
 
 Click on the ''Marketplace'' link:
@@ -49,20 +49,20 @@ image::lab2.png[]
 == Creating and Binding to a Service Instance
 
 . Let's begin by creating a MySQL service instance.
-From the Apps Manager UI service marketplace, select _MySQL for Pivotal Cloudfoundry_, select the *100mb plan*, and provide an instance name.
-In the drop-down list next to _Bind to App_ select your mvc-demo application.
+From the Apps Manager UI service marketplace, select _MySQL for Pivotal Cloud Foundry_, select the *100mb plan*, and provide an instance name.
+In the drop-down list next to _Bind to App_ select your workshop-spring application.
 +
 image::lab3.png[]
 
 . Notice the admonition to `Use 'cf restage' to ensure your env variable changes take effect`.
-Let's take a look at the environment variables for our application. We can do this by viewing to the homepage of the application.
+Let's take a look at the environment variables for our application. We can do this by viewing the homepage of the application.
 Here we will see a printout of the environment information.  Take note of what is contained in the section _Bound Services_.  It's an empty JSON document!
 
 . Now let's _restage_ the application, which cycles our application back through the staging/buildpack process before redeploying the application.footnote:[In this case, we could accomplish the same goal by only _restarting_ the application via `cf restart spring-music`.
 A _restage_ is generally recommended because Cloud Foundry buildpacks also have access to injected environment variables and can install or configure things differently based on their values.]
 +
 ----
-$ cf restage mvc-demo
+$ cf restage workshop-spring
 ----
 +
 Once the application is running again, revisit or refresh the browser tab where you have the _Wokshop_ application loaded.  You'll notice now we have information that could be used to connect to a DB.

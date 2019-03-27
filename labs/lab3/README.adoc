@@ -2,8 +2,8 @@
 
 [abstract]
 --
-Pivotal Cloudfoundry makes the work of performing operations actions, such as scaling, doing a zero-downtime deploy, and managing application health very easy.
-In the next two labs we'll explore Pivotal Cloudfoundry operations.
+Pivotal Cloud Foundry makes the work of performing operations actions, such as scaling, doing a zero-downtime deploy, and managing application health very easy.
+In the next two labs we'll explore Pivotal Cloud Foundry operations.
 --
 
 == Scale the Application Up
@@ -160,7 +160,7 @@ image::blue-green.png[]
 
 == Accessing Container Contents
 
-SSH into your app container via 'cf ssh APP_NAME' 
+SSH into your app container via 'cf ssh APP_NAME'
 
 Reference: https://docs.pivotal.io/pivotalcf/customizing/diego-ssh/access-apps.html
 
