@@ -1,7 +1,6 @@
 ---
 applications:
 - name: workshop-node
-  random-host: true
   memory: 128M
   instances: 1
-  path: .
+  random-route: true
