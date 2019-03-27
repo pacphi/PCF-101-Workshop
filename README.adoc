@@ -14,7 +14,7 @@ Application developers & architects seeking introductory understanding of Cloud 
 
 == PREREQUISITES
 
-Understanding of application development and deployment. This course is aimed at developers regardless of your development language of choice. No specific programming language is needed or assumed. The Boeing environment favors Java or .Net. The hands on Labs will primarily be based on languages that target the Java or .Net core runtime.
+Understanding of application development and deployment. This course is aimed at developers regardless of your development language of choice. No specific programming language is needed or assumed. The hands on Labs will primarily be based on languages that target the Java or .Net Core runtime.
 
 == COURSE OBJECTIVES
 
@@ -32,19 +32,19 @@ At the end of the training, participants should have an understanding of the fol
 
 == AGENDA / SCHEDULE
 
-8:30 AM - 9:15 AM:: 
+8:30 AM - 9:15 AM::
  * Session 1: _Cloud Native Introduction & Building Microservices_
 
 Session 1 is an overview of Cloud Foundry and how you can support a multi-cloud portable strategy for applications and pipelines with minimal overhead.
 
 9:15 AM - 9:30 AM:: BREAK
 
-9:30 AM - 10:30 AM:: 
+9:30 AM - 10:30 AM::
  * Session 2: _Cloud Foundry Architecture and Operations_
 
 Session 2 is a deep dive on Platforms, Cloud Foundry, and Containers from both a dev and ops perspective
 
-10:30 AM - 11:00 AM:: 
+10:30 AM - 11:00 AM::
  * Laptop preparation
 
 11:00 AM - 12:00 PM::
@@ -52,7 +52,7 @@ Session 2 is a deep dive on Platforms, Cloud Foundry, and Containers from both a
 
 12:00 PM - 1:00 PM:: LUNCH
 
-1:00 PM - 3:00 PM:: 
+1:00 PM - 3:00 PM::
   * Developer Workshop (Part 2): _Continued hands-on w/ PCF_
 
 3:00 PM - 3:30 PM:: Wrap Up, Q/A, Feedback
@@ -76,7 +76,7 @@ Session 2 is a deep dive on Platforms, Cloud Foundry, and Containers from both a
 ** link:labs/lab4/README.adoc[Lab 4 - Monitoring Your Application]
 ** Advanced Lab - Jenkins Integration
 *** link:labs/lab5/README.adoc[Java App - Gradle Build]
-** For further exploration check-out these projects 
+** For further exploration check-out these projects
 *** https://github.com/pacphi/track-shipments[Spring Boot Track Shipments example]
 *** https://github.com/pacphi/spring-boot-mongodb-example[Spring Boot MongoDB example]
 *** https://github.com/pacphi/spring-boot-cassandra-customer-starter[Spring Boot Cassandra example]

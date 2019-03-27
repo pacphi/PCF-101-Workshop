@@ -1,7 +1,7 @@
 ---
 applications:
-- name: ruby-demo
+- name: workshop-ruby
   memory: 128M
   instances: 1
-  host: ruby-demo-${random-word}
+  random-route: true
   path: .

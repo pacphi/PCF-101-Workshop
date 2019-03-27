@@ -2,7 +2,7 @@
 
 == Account set up
 
-. If you do not have an account yet, please see the instructor
+. Access to one of your organizations PCF installations is a pre-requisite for this lab.
 
 == Target the Environment
 
@@ -11,17 +11,17 @@
 . Login to Pivotal Cloudfoundry:
 +
 ----
-$ cf login -a https://{boeing_pcf_api_endpoint} ---sso
+$ cf login -a https://{your_org_pcf_api_endpoint} --sso
 ----
 +
-Follow the prompts.  A temporary token that serves as your password will be vended through single sign-on.  
+Follow the prompts.  A temporary token that serves as your password will be vended through single sign-on.
 
 == Apps Manager UI
 
 . An alternative to installing the CF CLI is via your PCF Apps Manager interface.
 
-. Navigate in a web browser to https://{boeing_pcf_api_endpoint}
+. Navigate in a web browser to https://{your_org_pcf_api_endpoint}
 
-. Login to the interface with via the SSO option. 
+. Login to the interface with via the SSO option.
 
 . Click the 'Tools' link, and download the CLI matching your operating system

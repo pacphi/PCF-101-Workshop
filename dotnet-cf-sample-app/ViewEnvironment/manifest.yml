@@ -1,7 +1,7 @@
 ---
 applications:
-- name: dotnet
-  host: dotnet-${random-word}
+- name: workshop-dotnet
+  random-host: true
   memory: 512m
   stack: windows2012R2
   buildpack: binary_buildpack
