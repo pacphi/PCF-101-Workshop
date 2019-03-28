@@ -9,7 +9,6 @@ A sample NodeJS application to demonstrate project structure, building and deplo
 Folder Layout
 -------------
 
-* lib - Locally defined modules, business logic that isn't anything to do with Express.
 * public - Anything that can be downloaded to a client/browser.
 * routes - Express routes.
 * test - Jasmine tests coming soon.
