@@ -6,7 +6,7 @@ Pivotal Cloud Foundry makes the work of performing operations actions, such as s
 In the this labs we'll continue to explore Pivotal Cloud Foundry application operations.
 --
 
-== Applciation Container and Network Monitoring with PCF Metrics
+== Application Container and Network Monitoring with PCF Metrics
 
 PCF Metrics helps developers better understand the health and performance of their apps by providing a near real-time view of critical data. Developers can see performance issues within two to three seconds, learn about events like an app crash as they occur, and look back in time to see what happened while they were away.
 
